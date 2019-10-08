@@ -13,7 +13,7 @@
     "react-transition-group": "^2.9.0",
     "uuid": "^3.3.2"
   },
-  "homepage": "https://gabrypol.github.io/dictionary-management-app",
+  "homepage": "https://gabrypol.github.io/dictionary-management-application",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
