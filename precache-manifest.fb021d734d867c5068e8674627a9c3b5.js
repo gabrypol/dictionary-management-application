@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/dictionary-management-application/static/css/main.f90e1154.chunk.css"
   },
   {
-    "revision": "e1aa8b9d4294a2e33e84e99b72b3d78d",
+    "revision": "bfddbc34fb52666ba1dba67e6048c1f5",
     "url": "/dictionary-management-application/index.html"
   }
 ];
