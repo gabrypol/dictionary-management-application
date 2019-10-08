@@ -1,0 +1,76 @@
+.Row {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.Row-row {
+  position: relative;
+  transition: opacity 0.4s linear;
+  margin-bottom: 1rem;
+}
+
+.Row-row span{
+  color: white;
+}
+
+.Row-buttons {
+  flex-shrink: 0;
+  padding-left: 0.7em;
+  margin-left: auto;
+}
+
+.Row-buttons button {
+  border: none;
+  font-size: 1em;
+  margin: 0.4em;
+  background: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.Row-edit-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Row-edit-form label {
+  min-width: 100%;
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+}
+
+.Row-edit-form input {
+  flex-grow: 1;
+  border: none;
+  background: #f7f1f1;
+  margin-bottom: 0.5rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  outline: none;
+  width: 100%;
+}
+
+.Row-edit-form button {
+  padding: 0 1.3rem;
+  border: none;
+  background: #479761;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 0 auto 2rem auto;
+  cursor: pointer;
+  transition: background 0.2s ease-out;
+}
+
+.Row-edit-form button:hover {
+  background: #479761;
+  opacity: 0.75;
+}
+
+.Row-edit-form input,
+.Row-edit-form button {
+  font-family: "Quicksand", sans-serif;
+  height: 2rem;
+}

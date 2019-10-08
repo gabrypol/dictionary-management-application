@@ -1,0 +1,25 @@
+.ListOfDictionaries {
+  margin: 4rem auto;
+  padding: 2rem 3rem 3rem;
+  max-width: 600px;
+  background: #19181a;
+  color: #479761;
+  box-shadow: -20px -20px 0px 0px rgba(100, 100, 100, 0.1);
+  overflow: hidden;
+}
+
+.ListOfDictionaries ul {
+  margin-top: 2.6rem;
+  list-style: none;
+}
+
+.ListOfDictionaries h1 {
+  font-weight: normal;
+  font-size: 2.6rem;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.ListOfDictionaries h1 span {
+  color: white;
+}
